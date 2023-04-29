@@ -1,0 +1,18 @@
+insert into (id, descricao, valor)
+values (1, 'TOSA', 10);
+insert into (id, descricao, valor)
+values (2, 'BANHO', 15);
+insert into (id, descricao, valor)
+values (3, 'VACINA', 16);
+insert into (id, descricao, valor)
+values (4, 'ENFEITE', 12);
+insert into (id, descricao, valor)
+values (5, 'PERFUME', 13);
+insert into (id, descricao, valor)
+values (6, 'DENSTES', 16);
+insert into cliente(id_cliente, ativo, cpf, email, nome)
+values(1, true, '1234567798', 'email@email.com', 'ronnie');
+insert into pet(id, nome, obs, sexo, tamanho, id_cliente)
+values(1, 'perebas', 'alergico a dipirona', MACHO, PEQUENO, 1);
+insert into usuario(id, nome, senha)
+values(1, 'Pedro', '123');
